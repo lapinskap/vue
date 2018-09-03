@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vue app</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ appTitle }}</h1>
+    </div>
+              
+<script>
+    
+new Vue({
+  data() {
+    return {
+      appTitle: "Pierwsza aplikacja Vue!"
+    };
+  }
+}).$mount("#app");
+
+</script>
+</body>
+</html>
